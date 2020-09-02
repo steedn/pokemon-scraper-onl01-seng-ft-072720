@@ -6,7 +6,6 @@ class Pokemon
     @name = name
     @type = type
     @db = db
-    save
   end
   def self.save
     @@all << self
